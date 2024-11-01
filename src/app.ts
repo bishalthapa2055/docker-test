@@ -23,12 +23,12 @@ app.get("/apple", (req, res) => {
     });
 });
 
-// app.get("/banana", (req, res) => {
-//   res.status(200).json({
-//     status: true,
-//     message: "Hello from banana",
-//   });
-// });
+app.get("/banana", (req, res) => {
+  res.status(200).json({
+    status: true,
+    message: "Hello from banana",
+  });
+});
 
 
 app.get("/users", async(req, res) => {
